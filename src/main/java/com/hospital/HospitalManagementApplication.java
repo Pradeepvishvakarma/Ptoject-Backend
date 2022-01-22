@@ -31,14 +31,12 @@ public class HospitalManagementApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 
-		Doctor doctor1 = new Doctor(null, null, null, null, 0, null, null, null);
-		doctorRepository.save(doctor1);
+		Doctor doctor1 = new Doctor();
+//		doctorRepository.save(doctor1);
 
 		
-		
-		
-		Patient patient1 = new Patient(null, null, null, null, 0, null, null, null, doctor1);
-		patientRepository.save(patient1);
+		Patient patient1 = new Patient();
+//		patientRepository.save(patient1);
 		
 		
 		
